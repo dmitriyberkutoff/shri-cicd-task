@@ -10,7 +10,12 @@ permissions:
   contents: read
 
 jobs:
+  tests:
+    - uses: .github/workflows/unit_tests.yml
+    - uses: .github/workflows/e2e_tests.yml
+
   release:
+    needs: tests
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
