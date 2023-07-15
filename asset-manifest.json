@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shri-cicd-task/static/css/main.bca2b5ee.css",
+    "main.js": "/shri-cicd-task/static/js/main.1fd0ebee.js",
+    "index.html": "/shri-cicd-task/index.html",
+    "main.bca2b5ee.css.map": "/shri-cicd-task/static/css/main.bca2b5ee.css.map",
+    "main.1fd0ebee.js.map": "/shri-cicd-task/static/js/main.1fd0ebee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bca2b5ee.css",
+    "static/js/main.1fd0ebee.js"
+  ]
+}
