@@ -11,8 +11,9 @@ permissions:
 
 jobs:
   tests:
-    - uses: .github/workflows/unit_tests.yml
-    - uses: .github/workflows/e2e_tests.yml
+    steps:
+      - uses: .github/workflows/unit_tests.yml
+      - uses: .github/workflows/e2e_tests.yml
 
   release:
     needs: tests
