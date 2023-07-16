@@ -31,6 +31,7 @@
         "eject": "react-scripts eject",
         "test": "react-scripts test",
         "e2e": "playwright test --project=chromium && playwright show-report",
+        "lint": "eslint . --ext .ts,.tsx",
         "test-ci": "CI=true npm test -- --reporters=\"default\" --reporters=\"jest-html-reporter\" --reporters=\"jest-teamcity\""
     },
     "eslintConfig": {
@@ -61,6 +62,8 @@
         "@commitlint/config-conventional": "^17.6.6",
         "@playwright/test": "^1.28.0",
         "@types/react-helmet": "^6.1.5",
+        "eslint": "^8.45.0",
+        "eslint-plugin-react": "^7.32.2",
         "husky": "^8.0.3",
         "jest-html-reporter": "^3.7.0"
     }
