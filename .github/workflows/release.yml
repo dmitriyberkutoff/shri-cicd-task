@@ -80,7 +80,7 @@ jobs:
       - name: Create new branch
         run: |
           git checkout -b release-${{ github.ref_name }}
-          git push -u origin release-${{ github.ref_name }}
+          git push -f -u origin release-${{ github.ref_name }}
 
       - name: Install Node.js
         uses: actions/setup-node@v3
