@@ -3,7 +3,7 @@ name: Run e2e tests on PR
 on: [pull_request, workflow_call]
 
 jobs:
-  run-unit-tests-on-pr:
+  run-e2e-tests-on-pr:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
