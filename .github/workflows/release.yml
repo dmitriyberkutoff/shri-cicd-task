@@ -61,7 +61,7 @@ jobs:
           issue-number: ${{ steps.create_issue.outputs.number }}
           body: |
             ## Tests results №${{ github.run_id }}
-            You can download files on this link:
+            You can see results of checks on this link:
             ${{github.server_url}}/${{ github.repository }}/actions/runs/${{github.run_id}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
