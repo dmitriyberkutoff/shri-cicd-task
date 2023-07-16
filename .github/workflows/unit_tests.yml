@@ -1,4 +1,4 @@
-name: Run unit tests on PR
+name: Unit tests
 
 on: [pull_request, workflow_call]
 
