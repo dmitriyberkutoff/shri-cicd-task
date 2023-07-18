@@ -1,1 +1,1 @@
-Try check requires of passing tests
+Release 3 again
